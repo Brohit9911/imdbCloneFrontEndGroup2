@@ -218,7 +218,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
           emptyText.style.display="none";
         }
       }
-  
+      showEmptyText();
       localStorage.setItem("movieName", target.dataset.id);
     }
   
